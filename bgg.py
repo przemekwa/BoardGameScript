@@ -11,7 +11,7 @@ def bggBaza():
  cur=con.cursor()
  cur.execute('select sqlite_version()')
  data=cur.fetchone()
- print str(data) 
+ print str(data)
 
 def bggTop100():
  plik=open('bggTop100.html','w')
@@ -33,7 +33,7 @@ def bggTop100():
   if b:
    aaa=1
    miejsce=miejsce+1
- f.close()
+ f.close
 
 
 
